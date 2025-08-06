@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Royal Event Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .banner {
+            width: 100%;
+            height: 400px;
+            background: url('images/event1.jpg') no-repeat center center/cover;
+        }
+        section {
+            padding: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        .event {
+            background-color: #f4f4f4;
+            margin: 10px 0;
+            padding: 10px;
+            border-left: 5px solid #4CAF50;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 6px 0;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Elite Event Management</h1>
+        <p>Your perfect event planner</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#events">Events</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="banner" id="home"></div>
+
+   
+
+     
+
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Elite Event Management is dedicated to making your events unforgettable. From weddings to corporate functions, we handle it all with perfection and style.</p>
+    </section>
+
+    <section id="events">
+        <h2>Upcoming Events</h2>
+        <div class="event">
+            <h3>Wedding Expo 2025</h3>
+            <p>Date: August 25, 2025</p>
+            <p>Location: Mumbai Convention Center</p>
+        </div>
+        <div class="event">
+            <h3>Corporate Meetup</h3>
+            <p>Date: September 10, 2025</p>
+            <p>Location: Pune Business Hub</p>
+        </div>
+        <div class="event">
+            <h3>Music Festival</h3>
+            <p>Date: October 5, 2025</p>
+            <p>Location: Goa Beach Arena</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Elite Event Management | Designed by You</p>
+    </footer>
+
+</body>
+</html>
